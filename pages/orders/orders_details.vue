@@ -1,4 +1,7 @@
 
+<template>
+  <Navbar/>
+  <Sidebar/>
 
     <div class="section-copy wf-section">
       <div class="div-block-30-tranin-copy">
@@ -183,6 +186,12 @@
         </div>
       </div>
     </div>
+  </template>
+
+  <style scoped>
+  @import url(../../styles/orders_details.css);
+  
+  </style>
     
 
 
