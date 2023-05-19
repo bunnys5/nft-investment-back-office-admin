@@ -6,6 +6,8 @@ import Toast from 'primevue/toast'
 import ToastService from 'primevue/toastservice'
 import TreeTable from 'primevue/treetable';
 import Column from 'primevue/column';
+import Textarea from 'primevue/textarea';
+import Timeline from 'primevue/timeline';
 
 const app = createApp();
 app.use(PrimeVue);
@@ -18,5 +20,7 @@ export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.component('Toast', Toast)
     nuxtApp.vueApp.component('TreeTable', TreeTable)
     nuxtApp.vueApp.component('Column', Column)
+    nuxtApp.vueApp.component('Textarea', Textarea)
+    nuxtApp.vueApp.component('Timeline', Timeline)
     //other components that you need
 })
