@@ -8,6 +8,7 @@ import TreeTable from 'primevue/treetable';
 import Column from 'primevue/column';
 import Textarea from 'primevue/textarea';
 import Timeline from 'primevue/timeline';
+import Dropdown from 'primevue/dropdown';
 
 const app = createApp();
 app.use(PrimeVue);
@@ -22,5 +23,6 @@ export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.component('Column', Column)
     nuxtApp.vueApp.component('Textarea', Textarea)
     nuxtApp.vueApp.component('Timeline', Timeline)
+    nuxtApp.vueApp.component('Dropdown', Dropdown)
     //other components that you need
 })

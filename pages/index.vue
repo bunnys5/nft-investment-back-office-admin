@@ -1,5 +1,4 @@
 <template>
-  
   <div class="body">
     <div class="div-block-2">
       <img
@@ -29,25 +28,29 @@
           class="form-2"
           aria-label="Email Form"
         >
-        <InputText id="username" v-model="value" aria-describedby="username-help" /><label for="name-2" class="field-label-email-error"
+          <InputText
+            style="width:100%"
+            placeholder="Email"
+            id="username"
+            aria-describedby="username-help"
+          /><label for="name-2" class="field-label-email-error"
             >อีเมลไม่ถูกต้อง</label
-          ><input
-            variant="flushed"
-            type="password"
-            maxlength="256"
-            name="email"
-            data-name="Password"
+          ><InputText style="width:100%"
             placeholder="Password"
-            id="password"
+            type="password"
+            id="username"
+            aria-describedby="username-help"
           /><label for="email-2" class="field-label-3-copy"
             >รหัสผ่านไม่ถูกต้อง</label
           ><Button
-            variant-color="blue" size="lg" 
+            style="justify-content: center;"
+            variant-color="blue"
             type="submit"
             value="เข้าสู่ระบบ"
             data-wait="Please wait..."
             class="button-edit"
-          >เข้าสู่ระบบ</Button>
+            >เข้าสู่ระบบ</Button
+          >
         </form>
         <div
           class="w-form-done"
@@ -64,7 +67,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <style scoped>
@@ -73,13 +75,9 @@
 </style>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
+import { ref } from "vue";
+import InputText from "primevue/inputtext";
+import Button from "primevue/button";
 
 const value = ref(null);
-
-
-
-
 </script>

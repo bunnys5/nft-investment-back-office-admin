@@ -82,8 +82,8 @@
                 </div>
                 <div class="div-block-101">
                   <div class="div-block-102">
-                    <a href="#" class="button-5 w-button">Button Text</a
-                    ><a href="#" class="button-4 w-button">Button Text</a>
+                    <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="ตกลง" />
+                    <Button class="button-4" style="color:white; font-family: Prompt; font-weight: 500;" label="กลับ" />
                   </div>
                 </div>
                 <div class="div-block-99"></div>
@@ -91,29 +91,29 @@
               <div class="div-block-106">
                 <div class="text-block-70">Timeline</div>
                 <div class="div-block-107">
-                  <div class="text-block-71">วันที่ยืนยันรับเรื่อง :</div>
-                  <div class="text-block-72">13 เมษายน พ.ศ 2023</div>
+                  <!-- <div class="text-block-71">วันที่ยืนยันรับเรื่อง :</div> -->
+                  <!-- <div class="text-block-72">13 เมษายน พ.ศ 2023</div> -->
                 </div>
                 <div class="div-block-108">
                   <div class="div-block-109">
                     <div class="div-block-96">
-                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-64">POOLS NAME :</div>
                       <div class="text-block-65">609213570</div>
                     </div>
                     <div class="div-block-96">
-                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-64">ADDRESS :</div>
                       <div class="text-block-65">609213570</div>
                     </div>
                     <div class="div-block-96">
-                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-64">POOLS ID :</div>
                       <div class="text-block-65">609213570</div>
                     </div>
                     <div class="div-block-96">
-                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-64">DEVICES ID :</div>
                       <div class="text-block-65">609213570</div>
                     </div>
                     <div class="div-block-96">
-                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-64">STATUS :</div>
                       <div class="text-block-65">609213570</div>
                     </div>
                   </div>
