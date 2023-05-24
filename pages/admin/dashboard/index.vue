@@ -15,7 +15,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645a9986e05f851d5b9a7c2e_moneys.svg"
+              src="../../../assets/dashboard/645a9986e05f851d5b9a7c2e_moneys.svg"
               loading="lazy"
               alt=""
               class="image-22"
@@ -29,7 +29,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa5c2a6617c2aa44aa014_emptywallettime.svg"
+              src="../../../assets/dashboard/645aa5c2a6617c2aa44aa014_emptywallettime.svg"
               loading="lazy"
               width="60"
               height="60"
@@ -44,7 +44,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa6c895de8aea6cbeebbc_mobileprogramming.svg"
+              src="../../../assets/dashboard/645aa6c895de8aea6cbeebbc_mobileprogramming.svg"
               loading="lazy"
               width="60"
               height="60"
@@ -59,7 +59,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa3b295de8a4676beae0f_walletmoney.svg"
+              src="../../../assets/dashboard/645aa3b295de8a4676beae0f_walletmoney.svg"
               loading="lazy"
               alt=""
               class="image-38"
@@ -73,7 +73,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa5fb928556f06f1de41c_moneysend.svg"
+              src="../../../assets/dashboard/645aa5fb928556f06f1de41c_moneysend.svg"
               loading="lazy"
               height="60"
               alt=""
@@ -87,36 +87,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa6a6d2374cabab3ef76c_tabledocument.svg"
-              loading="lazy"
-              width="60"
-              height="60"
-              alt=""
-            />
-          </div>
-          <div class="div-block-33">
-            <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
-            <div class="text-block-21">1,000,000 บาท</div>
-          </div>
-        </div>
-        <div class="div-block-31">
-          <div class="div-block-32">
-            <img
-              src="../../assets/dashboard/645aa448055420e58038f756_profile.svg"
-              loading="lazy"
-              height="60"
-              alt=""
-            />
-          </div>
-          <div class="div-block-33">
-            <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
-            <div class="text-block-21">1,000,000 บาท</div>
-          </div>
-        </div>
-        <div class="div-block-31">
-          <div class="div-block-32">
-            <img
-              src="../../assets/dashboard/645aa61b3e36c0942804c1c8_box2.svg"
+              src="../../../assets/dashboard/645aa6a6d2374cabab3ef76c_tabledocument.svg"
               loading="lazy"
               width="60"
               height="60"
@@ -131,7 +102,21 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa6a6a485ecfa87495deb_devices.svg"
+              src="../../../assets/dashboard/645aa448055420e58038f756_profile.svg"
+              loading="lazy"
+              height="60"
+              alt=""
+            />
+          </div>
+          <div class="div-block-33">
+            <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+            <div class="text-block-21">1,000,000 บาท</div>
+          </div>
+        </div>
+        <div class="div-block-31">
+          <div class="div-block-32">
+            <img
+              src="../../../assets/dashboard/645aa61b3e36c0942804c1c8_box2.svg"
               loading="lazy"
               width="60"
               height="60"
@@ -146,7 +131,22 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa47f63b3c455356a404d_notepad2.svg"
+              src="../../../assets/dashboard/645aa6a6a485ecfa87495deb_devices.svg"
+              loading="lazy"
+              width="60"
+              height="60"
+              alt=""
+            />
+          </div>
+          <div class="div-block-33">
+            <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+            <div class="text-block-21">1,000,000 บาท</div>
+          </div>
+        </div>
+        <div class="div-block-31">
+          <div class="div-block-32">
+            <img
+              src="../../../assets/dashboard/645aa47f63b3c455356a404d_notepad2.svg"
               loading="lazy"
               height="60"
               alt=""
@@ -160,7 +160,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa61bf299ad2f8212d12f_profile2user.svg"
+              src="../../../assets/dashboard/645aa61bf299ad2f8212d12f_profile2user.svg"
               loading="lazy"
               height="60"
               alt=""
@@ -174,7 +174,7 @@
         <div class="div-block-31">
           <div class="div-block-32">
             <img
-              src="../../assets/dashboard/645aa6a60558c99171b982b0_money3.svg"
+              src="../../../assets/dashboard/645aa6a60558c99171b982b0_money3.svg"
               loading="lazy"
               width="60"
               alt=""
@@ -267,7 +267,7 @@
 </template>
 
 <style scoped>
-@import url(../../styles/dashboard.css);
+@import url(../../../styles/dashboard.css);
 
 
 </style>

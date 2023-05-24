@@ -86,5 +86,5 @@
 </template>
 
 <style scoped>
-@import url(../../styles/devices_approve.css);
+@import url(../../../styles/devices_approve.css);
 </style>

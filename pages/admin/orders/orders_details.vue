@@ -189,7 +189,7 @@
   </template>
 
   <style scoped>
-  @import url(../../styles/orders_details.css);
+  @import url(../../../styles/orders_details.css);
   
   </style>
     

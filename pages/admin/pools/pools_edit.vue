@@ -96,7 +96,7 @@
 </template>
 
 <style scoped>
-@import url(../../styles/pools_edit.css);
+@import url(../../../styles/pools_edit.css);
 
 </style>
 

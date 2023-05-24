@@ -55,10 +55,10 @@
 </template>
 
 <style scoped>
-@import url(../../styles/devices.css);
+@import url(../../../styles/devices.css);
 </style>
 
-<script lang="ts">
+<script setup lang="ts">
 import { ref } from "vue";
 
 const nodes = ref();

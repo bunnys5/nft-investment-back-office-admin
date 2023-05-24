@@ -24,7 +24,7 @@
             <div class="div-block-50">
               <div class="div-block-55">
                 <img
-                  src="../../assets/transaction_details/6460ab303cd46f90282cd955_429D72BD-A90E-4657-AE57-7631AF01A3D5 2.png"
+                  src="../../../assets/transaction_details/6460ab303cd46f90282cd955_429D72BD-A90E-4657-AE57-7631AF01A3D5 2.png"
                   loading="lazy"
                   alt=""
                   class="image-40"
@@ -47,7 +47,7 @@
                     <div class="div-block-64">
                       <div class="div-block-66">
                         <img
-                          src="../../assets/transaction_details/6460b5086a5c7615fcfbf4c1_currency-usd.png"
+                          src="../../../assets/transaction_details/6460b5086a5c7615fcfbf4c1_currency-usd.png"
                           loading="lazy"
                           alt=""
                         />
@@ -64,7 +64,7 @@
                     <div class="div-block-64">
                       <div class="div-block-66">
                         <img
-                          src="../../assets/transaction_details/6460b509d6192761284ee288_account.png"
+                          src="../../../assets/transaction_details/6460b509d6192761284ee288_account.png"
                           loading="lazy"
                           alt=""
                         />
@@ -81,7 +81,7 @@
                     <div class="div-block-64">
                       <div class="div-block-66">
                         <img
-                          src="../../"
+                          src="../../../"
                           loading="lazy"
                           alt=""
                         />
@@ -132,7 +132,7 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     data-w-id="88ddad91-0736-8614-ed5e-0e4be55c6a82"
                     alt=""
@@ -170,7 +170,7 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
                   />
@@ -188,7 +188,7 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
                   />
@@ -206,7 +206,7 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
                   />
@@ -224,7 +224,7 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
                   />
@@ -239,7 +239,7 @@
   </template>
 
   <style scoped>
-  @import url(../../styles/transaction_details.css);
+  @import url(../../../styles/transaction_details.css);
   </style>
     
 

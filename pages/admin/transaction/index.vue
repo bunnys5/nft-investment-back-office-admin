@@ -6,18 +6,15 @@
     <div class="section wf-section">
       <div class="div-block-30">
         <div class="text-block-18">
-          <span class="text-span-7">Page / </span>Partners
+          <span class="text-span-7">Page / </span>Transaction
         </div>
-        <div class="text-block-19">Partners</div>
+        <div class="text-block-19">Transaction</div>
       </div>
       <div class="div-block-34">
         <div class="div-block-35">
           <div class="div-block-37">
             <div class="div-block-38">
-              <div class="text-block-22">ผู้เข้าร่วม</div>
-              <div class="button-nameTop">
-                <Button class="button-add" label="เพิ่ม" />
-              </div>
+              <div class="text-block-22">เงินหมุนเวียนในระบบ</div>
             </div>
           </div>
           <div class="div-block-39">
@@ -29,18 +26,16 @@
                 <Button type="button" icon="pi pi-refresh" text />
             </template>
             <Column style="backgroundColor: var(--highlight-bg), color: var(--highlight-text-color)" field="pool_name" header="POOL NAME" expander></Column>
-            <Column field="size" header="USERS"></Column>
-            <Column field="size" header="DATE"></Column>
-            <Column field="size" header="ADDRESS"></Column>
-            <Column field="size" header="POOL ID"></Column>
-            <Column field="size" header="AMOUNT"></Column>
-            <Column field="type" header="STATUS"></Column>
+            <Column field="size" header="CREATED"></Column>
+            <Column field="size" header="UPDATED"></Column>
+            <Column field="size" header="CONTACT"></Column>
+            <Column field="size" header="MIN"></Column>
+            <Column field="size" header="HISTORY"></Column>
             <template #paginatorend>
                 <Button type="button" icon="pi pi-download" text />
             </template>
         </TreeTable>
     </div>
-
           </div>
         </div>
       </div>
@@ -52,7 +47,7 @@
 </template>
 
 <style scoped>
-@import url(../../styles/partners.css);
+@import url(../../../styles/transaction.css);
 </style>
 
 <script lang="ts">
@@ -85,7 +80,5 @@ for (let i = 0; i < 50; i++) {
 }
 
 nodes.value = files;
-
-    
 </script>
 

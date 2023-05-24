@@ -174,7 +174,7 @@
 </template>
 
 <style scoped>
-@import url(../../styles/pools_timeline.css);
+@import url(../../../styles/pools_timeline.css);
 
 </style>
 
