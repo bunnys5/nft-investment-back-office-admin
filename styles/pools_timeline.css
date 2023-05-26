@@ -5037,11 +5037,18 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-block-64-copy {
-  width: 100px;
+  width: 110px;
   color: #0f7dff;
   margin-left: 0;
   font-family: Prompt, sans-serif;
   font-size: 14px;
+  font-weight: 500;
+}
+
+.text-block-65-copy1 {
+  font-family: 'Prompt';
+  color: #0f7dff;
+  font-size: 20px;
   font-weight: 500;
 }
 

@@ -8,7 +8,7 @@
         <div class="text-block-18">
           <span class="text-span-7">Page / </span>Expenses
         </div>
-        <div class="text-block-19">Expenses</div>
+        <div class="text-block-19">Transaction</div>
       </div>
       <div class="div-block-34">
         <div class="div-block-35">
@@ -25,11 +25,10 @@
             <template #paginatorstart>
                 <Button type="button" icon="pi pi-refresh" text />
             </template>
-            <Column style="backgroundColor: var(--highlight-bg), color: var(--highlight-text-color)" field="pool_name" header="POOL NAME" expander></Column>
-            <Column field="size" header="CREATED"></Column>
-            <Column field="size" header="UPDATED"></Column>
-            <Column field="size" header="CONTACT"></Column>
-            <Column field="size" header="MIN"></Column>
+            <Column style="backgroundColor: var(--highlight-bg), color: var(--highlight-text-color)" field="pool_name" header="DEVICE ID" expander></Column>
+            <Column field="size" header="ADDRESS"></Column>
+            <Column field="size" header="CREATE AT"></Column>
+            <Column field="size" header="POOL ID"></Column>
             <Column field="size" header="HISTORY"></Column>
             <template #paginatorend>
                 <Button type="button" icon="pi pi-download" text />

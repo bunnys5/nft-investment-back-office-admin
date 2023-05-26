@@ -1,31 +1,4 @@
 <template>
-  
-  <!-- <div class="body">
-    <div class="div-block-3">
-      <c-button
-        class="link-block-2 w-inline-block"
-        variant-color="blue" variant="solid"
-        ><div class="text-block-9">Logout</div>
-        <img
-          src="../static/navbar/6458b98c5f4e30a6c1bda778_logout.png"
-          loading="lazy"
-          alt=""
-      /></c-button>
-      <div class="div-block-4">
-        <div><div class="text-block-10">Account :</div></div>
-        <div><div class="text-block-11">Test User1234</div></div>
-        <img
-          src="../static/navbar/6457cdde93a9b2235ddae9e7_Screenshot 2023-05-07 231145.jpg"
-          loading="lazy"
-          sizes="(max-width: 479px) 92vw, 39px"
-          alt=""
-          class="image-3"
-        />
-      </div>
-    </div>
-
-  </div> -->
-
   <div class="div-block-tran">
       <div class="div-block-7">
         <a
