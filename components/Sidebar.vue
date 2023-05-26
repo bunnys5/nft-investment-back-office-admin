@@ -2,6 +2,9 @@
 
     <div class="div-block-6">
       <div class="div-block-8">
+        <div class="close-icon" >
+          <img class="img-close" src="../assets/sidebar/close.svg" alt="" sizes="50px" />
+        </div>
         <div class="div-block-9">
           <img
             src="../assets/sidebar-navbar-dashboard/6457cdde93a9b2235ddae9e7_Screenshot 2023-05-07 231145.jpg"
@@ -160,6 +163,22 @@
 
   <style scoped>
   @import url("../styles/sidebar.css");
+
+  .div-block-6 {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+  }
+
+  @media screen and (max-width: 991px)   {
+    
+    .div-block-6 {
+      display: none !important;
+    }
+
+  }
 
   </style>
 

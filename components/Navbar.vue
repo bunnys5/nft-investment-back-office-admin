@@ -1,5 +1,8 @@
 <template>
   <div class="div-block-tran">
+      <div class="icon-menu">
+        <img src="../assets/navbar/menu.svg" alt="">
+      </div>
       <div class="div-block-7">
         <a
           href="https://sanhanats-stunning-site.webflow.io/#"
@@ -45,6 +48,34 @@ export default {
 <style scoped>
   /* @import url(../styles/navbar.css); */
   @import url(../styles/NavbarSidebarDashboard.css);
+
+  .div-block-tran {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+
+
+  @media screen and (max-width: 1920px)   {
+    
+    .icon-menu {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 991px) {
+
+    .icon-menu {
+      display: flex;
+    }
+
+    .div-block-tran {
+      justify-content: space-between !important;
+    }
+  }
 
 
 
