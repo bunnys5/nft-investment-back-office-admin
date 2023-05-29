@@ -2456,6 +2456,7 @@ textarea.w-input, textarea.w-select {
   padding-left: 40px;
 }
 
+
 .div-block-4-tranin {
   width: auto;
   grid-column-gap: 0px;
@@ -5398,6 +5399,23 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+
+  .div-block-tran {
+    /* max-width: 300px !important; */
+  }
+
+  .text-block-10 {
+    font-size: 12px !important;
+  }
+
+  .text-block-11 {
+    font-size: 12px !important;
+  }
+
+  .text-block-9 {
+    
+  }
+
   .container {
     max-width: none;
   }

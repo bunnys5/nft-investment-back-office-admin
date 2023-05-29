@@ -808,6 +808,48 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+
+  .div-block-41-copy-copy {
+    width: 100% !important;
+    top: 0 !important;
+    margin: 0 !important;
+    margin-top: 25px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+
+  }
+
+  .image-22 {
+    width: 50px !important; 
+  }
+
+  .div-block-35-copy-copy {
+    width: 100% !important;
+    margin-left: 0px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+
+  }
+
+  .div-block-31 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .block-content {
+    display: flex !important;
+    
+  }
+
+  .text-block-21 {
+    text-align: right !important;
+  }
+
+  .div-block-34-copy-copy {
+    display: block !important;
+  }
+
   .w-container {
     max-width: 728px;
   }
@@ -945,6 +987,7 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+
   .w-container {
     max-width: none;
   }
@@ -2832,7 +2875,6 @@ textarea.w-input, textarea.w-select {
 
 .div-block-20, .div-block-21 {
   text-align: center;
-  margin-top: 40px;
 }
 
 .link-6 {
@@ -3172,8 +3214,9 @@ textarea.w-input, textarea.w-select {
 
 .section {
   z-index: -99;
-  width: 90%;
-  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
   background-color: #f1f1f1;
   margin-top: 0;
   display: block;
@@ -3213,12 +3256,15 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-31 {
+  background-color: white !important;
   width: 239px;
   height: 100px;
   border-radius: 20px;
-  margin-left: 46px;
+  margin-left: 45px;
   display: flex;
-  box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow:  0 2px 5px rgba(0, 0, 0, .2)
 }
 
 .image-22 {
@@ -3227,7 +3273,8 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-32 {
-  width: 40%;
+  padding-left: 10px;
+  width: auto;
   height: 100%;
   text-align: center;
   justify-content: center;
@@ -3238,15 +3285,24 @@ textarea.w-input, textarea.w-select {
 .div-block-33 {
   width: 60%;
   height: 100%;
-  text-align: center;
+  text-align: center !important;
+  justify-content: center !important;
   flex: none;
   order: 1;
   align-self: center;
-  display: block;
+  display: flex !important;
+  flex-direction: column;
+  
 }
 
-.text-block-20 {
+.block-content {
   
+}
+
+
+
+.text-block-20 {
+  width: auto !important;
   height: auto;
   color: #7b809a;
   text-align: right;
@@ -3254,8 +3310,6 @@ textarea.w-input, textarea.w-select {
   justify-content: flex-end;
   align-self: auto;
   align-items: flex-start;
-  margin-top: 30px;
-  margin-right: 15px;
   font-family: Prompt, sans-serif;
   font-weight: 300;
   display: block;
@@ -3270,7 +3324,6 @@ textarea.w-input, textarea.w-select {
   flex: none;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 15px;
   font-family: Prompt, sans-serif;
   font-weight: 700;
   display: block;
@@ -3330,13 +3383,13 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-block-21-copy {
+  width: auto !important;
   height: auto;
   color: #344767;
   text-align: right;
   flex: none;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 15px;
   font-family: Prompt, sans-serif;
   font-weight: 700;
   display: block;
@@ -3849,9 +3902,18 @@ textarea.w-input, textarea.w-select {
   margin-top: 35px;
 }
 
-.div-block-35-copy-copy-copy {
+.div-block-35-cop {
   width: 100%;
   height: 50%;
+  margin-top: 35px;
+  padding-left: 45px;
+  padding-right: 35px;
+  
+}
+
+.div-block-35-copy-copy-copy {
+  width: 100%;
+  height: auto;
   margin-top: 35px;
   margin-right: 80px;
 }
@@ -3920,7 +3982,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-35-copy-copy {
   width: 100%;
-  height: 50%;
+  height: auto;
   margin-top: 35px;
 }
 
@@ -3958,7 +4020,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-39-copy-copy {
   width: 85%;
-  height: 100%;
+  height: auto;
   border-radius: 20px;
   margin-top: 25px;
   margin-left: 45px;
@@ -4018,7 +4080,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-46 {
-  grid-column-gap: 16px;
+  grid-column-gap: 0px !important;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -4126,7 +4188,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-35-copy-copy {
   width: 100%;
-  height: 50%;
+  height: auto;
   margin-top: 35px;
   margin-left: 45px;
 }
@@ -4266,14 +4328,14 @@ textarea.w-input, textarea.w-select {
 
 .div-block-34-copy-copy {
   width: 100%;
-  height: 40%;
+  height: auto;
   justify-content: flex-start;
   display: flex;
 }
 
 .div-block-35-copy-copy {
-  width: 60%;
-  height: 70%;
+  width: 50%;
+  height: auto;
   margin-top: 35px;
   margin-left: 45px;
 }
@@ -4313,7 +4375,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-39-copy-copy {
   width: 100%;
-  height: 100%;
+  height: 400px;
   border-radius: 20px;
   margin-top: 25px;
   margin-left: 0;
@@ -4349,7 +4411,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-43-copy-copy {
-  height: 100%;
+  height: 400px;
   border-radius: 20px;
   margin-top: 25px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
@@ -4407,6 +4469,8 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (min-width: 1920px) {
+
+
   .div-block-31 {
     margin-left: 45px;
   }
@@ -4628,7 +4692,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .div-block-46 {
-    grid-column-gap: 16px;
+    grid-column-gap: 0px !important;
     grid-row-gap: 16px;
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -4847,6 +4911,7 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+
   .container {
     max-width: 728px;
   }
@@ -4878,7 +4943,6 @@ textarea.w-input, textarea.w-select {
   }
 
   .section {
-    width: 100%;
     position: absolute;
     left: 0;
   }
@@ -4940,6 +5004,76 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+
+  .text-block-18-tranin {
+    font-size: 12px;
+  }
+
+  .text-block-19-tranin {
+    font-size: 12px;
+  }
+
+  .div-block-36-copy-copy {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .text-block-23-copy-copy {
+    font-size: 12px;
+  }
+
+  .div-block5555-copy {
+    font-size: 10px;
+  }
+
+  .button-3-copy-copy {
+    font-size: 10px;
+  }
+
+  .text-block-22-copy-copy {
+    font-size: 10px;
+  }
+  
+  .text-block-23-copy-copy {
+    font-size: 10px;
+  }
+
+  .div-block-31 {
+    width: 145px;
+    height: 65px;
+    padding-right: 5px;
+    margin-left: 30px;
+  }
+
+  .text-block-19-tranin {
+    margin-left: 30px;
+  }
+
+  .text-block-18-tranin {
+    margin-left: 30px;
+  }
+
+  .div-block-32 {
+    width: 50px;
+  }
+
+  .image-22 {
+    width: 24px;
+  }
+
+  .text-block-20 {
+    font-size: 8px !important;
+  }
+
+  .text-block-21 {
+    font-size: 10px !important;
+  }
+
+  .section {
+    max-width: 100%;
+  }
+
   .container {
     max-width: none;
   }
