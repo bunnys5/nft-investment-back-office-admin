@@ -46,7 +46,7 @@
                   <div class="div-block-63">
                     <div class="div-block-64">
                       <div class="div-block-66">
-                        <img
+                        <img style="width:22px; height: 22px;"
                           src="../../../assets/transaction_details/6460b5086a5c7615fcfbf4c1_currency-usd.png"
                           loading="lazy"
                           alt=""
@@ -62,8 +62,8 @@
                   </div>
                   <div class="div-block-63">
                     <div class="div-block-64">
-                      <div class="div-block-66">
-                        <img
+                      <div class="div-block-66" style="background-color: #1A73E7;">
+                        <img style="width:22px; height: 22px;"
                           src="../../../assets/transaction_details/6460b509d6192761284ee288_account.png"
                           loading="lazy"
                           alt=""
@@ -71,7 +71,7 @@
                       </div>
                     </div>
                     <div class="div-block-67">
-                      <div class="text-block-35">รายได้/เครื่อง</div>
+                      <div class="text-block-35">จำนวนการใช้งาน</div>
                     </div>
                     <div class="div-block-65">
                       <div class="text-block-34">+$2,000</div>
@@ -79,16 +79,16 @@
                   </div>
                   <div class="div-block-63">
                     <div class="div-block-64">
-                      <div class="div-block-66">
-                        <img
-                          src="../../../"
+                      <div class="div-block-66" style="background-color: #16C0E8;">
+                        <img style="width:22px;"
+                          src="../../../assets/transaction_details/text-box.svg"
                           loading="lazy"
                           alt=""
                         />
                       </div>
                     </div>
                     <div class="div-block-67">
-                      <div class="text-block-35">รายได้/เครื่อง</div>
+                      <div class="text-block-35">ค่าใช้จ่าย / เครื่อง</div>
                     </div>
                     <div class="div-block-65">
                       <div class="text-block-34">+$2,000</div>
@@ -139,7 +139,7 @@
                     class="image-41"
                   />
                 </div>
-                <div class="div-block-75" style="display: none">
+                <div class="div-block-75" style="">
                   <div class="div-block-76">
                     <div>รหัสผู้ใช้ :</div>
                     <div>XXXXXXXXXX</div>
@@ -173,6 +173,7 @@
                     src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
+                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -191,6 +192,7 @@
                     src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
+                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -209,6 +211,7 @@
                     src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
+                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -227,6 +230,7 @@
                     src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
+                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -240,6 +244,9 @@
 
   <style scoped>
   @import url(../../../styles/transaction_details.css);
+
+
+
   </style>
     
 

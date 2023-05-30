@@ -56,6 +56,7 @@
 
 <style scoped>
 @import url(../../../styles/devices.css);
+
 </style>
 
 <script setup lang="ts">

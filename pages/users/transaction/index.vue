@@ -23,17 +23,15 @@
             paginatorTemplate="RowsPerPageDropdown FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink"
             currentPageReportTemplate="{first} to {last} of {totalRecords}">
             <template #paginatorstart>
-                <Button type="button" icon="pi pi-refresh" text />
+                
             </template>
-            <Column style="backgroundColor: var(--highlight-bg), color: var(--highlight-text-color)" field="pool_name" header="POOL NAME" expander></Column>
-            <Column field="size" header="CREATED"></Column>
-            <Column field="size" header="UPDATED"></Column>
-            <Column field="size" header="CONTACT"></Column>
-            <Column field="size" header="MIN"></Column>
-            <Column field="size" header="HISTORY"></Column>
-            <template #paginatorend>
-                <Button type="button" icon="pi pi-download" text />
-            </template>
+            <Column style="backgroundColor: var(--highlight-bg), color: var(--highlight-text-color) font-size: 16px;" field="pool_name" header="POOL NAME" expander></Column>
+            <Column style="font-size: 16px;" field="size" header="CREATED"></Column>
+            <Column style="font-size: 16px;" field="size" header="UPDATED"></Column>
+            <Column style="font-size: 16px;" field="size" header="CONTACT"></Column>
+            <Column style="font-size: 16px;" field="size" header="MIN"></Column>
+            <Column style="font-size: 16px;" field="size" header="HISTORY"></Column>
+            
         </TreeTable>
     </div>
           </div>
@@ -48,6 +46,8 @@
 
 <style scoped>
 @import url(../../../styles/transaction.css);
+
+
 </style>
 
 <script lang="ts">
