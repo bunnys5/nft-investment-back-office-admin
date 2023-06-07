@@ -9,6 +9,7 @@
             <span class="text-span-7">Page / </span>Devices
           </div>
           <div class="text-block-19">Devices</div>
+          
         </div>
         <div class="div-block-34">
           <div class="div-block-35">
@@ -16,6 +17,9 @@
               <div class="div-block-38">
                 <div class="text-block-22">อุปกรณ์</div>
               </div>
+              <Button style="color:white; font-family:'Prompt'" label="เพิ่มอุปกรณ์">
+                <NuxtLink style="color:white; font-family:'Prompt'; text-decoration: none;" to="../devices/devices_approve/">เพิ่มอุปกรณ์</NuxtLink>
+              </Button>
             </div>
             <div class="div-block-39">
               <div class="card">
@@ -61,6 +65,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import Button from 'primevue/button';
 
 const nodes = ref();
 

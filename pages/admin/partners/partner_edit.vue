@@ -30,8 +30,12 @@
             </div>
             <div class="div-block-101">
               <div class="div-block-102">
-                <Button class="button-5" label="แก้ไข" />
-                <Button class="button-4" label="กลับ" />
+                <NuxtLink class="button-5" to="./partner_details">
+                <Button class="button-5" label="ตกลง" />
+                </NuxtLink>
+                <NuxtLink class="button-4" to="./partner/.partner_details">
+                <Button class="button-4" label="ยกเลิก" />
+                </NuxtLink>
               </div>
             </div>
           </div>

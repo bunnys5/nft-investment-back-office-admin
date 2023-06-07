@@ -1,16 +1,20 @@
 <template>
   <div class="body">
     <div class="div-block-2">
-      <img
-        src="../assets/login/6457cdde93a9b2235ddae9e7_Screenshot 2023-05-07 231145.jpg"
-        loading="lazy"
-        class="image-2"
-      />
-      <div class="text-block-4">
-        <span class="text-span-3">CYBER</span
-        ><span class="text-span-4">PAY</span>
+      <div class="img-logo">
+        <img
+          src="../assets/login/6457cdde93a9b2235ddae9e7_Screenshot 2023-05-07 231145.jpg"
+          loading="lazy"
+          class="image-2"
+        />
       </div>
-      <div class="text-block-5">WALLET</div>
+      <div class="content">
+        <div class="text-block-4">
+          <span class="text-span-3">CYBER</span
+          ><span class="text-span-4">PAY</span>
+        </div>
+        <div class="text-block-5">WALLET</div>
+      </div>
     </div>
     <div class="div-block">
       <div class="text-block">
@@ -29,13 +33,14 @@
           aria-label="Email Form"
         >
           <InputText
-            style="width:100%"
+            style="width: 100%"
             placeholder="Email"
             id="username"
             aria-describedby="username-help"
           /><label for="name-2" class="field-label-email-error"
             >อีเมลไม่ถูกต้อง</label
-          ><InputText style="width:100%"
+          ><InputText
+            style="width: 100%"
             placeholder="Password"
             type="password"
             id="username"
@@ -43,7 +48,7 @@
           /><label for="email-2" class="field-label-3-copy"
             >รหัสผ่านไม่ถูกต้อง</label
           ><Button
-            style="justify-content: center;"
+            style="justify-content: center"
             variant-color="blue"
             type="submit"
             value="เข้าสู่ระบบ"
@@ -71,7 +76,6 @@
 
 <style scoped>
 @import url(../styles/login.css);
-
 </style>
 
 <script setup lang="ts">

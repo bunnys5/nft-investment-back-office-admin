@@ -4,10 +4,10 @@
   <div class="section-copy wf-section">
     <div class="div-block-30-tranin-copy">
       <div class="text-block-18-tranin-copy">
-        <span class="text-span-7-tranin-copy">Page / Orders</span>/ Orders
+        <span class="text-span-7-tranin-copy">Page / Devices</span>/ Orders
         Details
       </div>
-      <div class="text-block-19-tranin-copy">Orders</div>
+      <div class="text-block-19-tranin-copy">Devices</div>
     </div>
     <div class="div-block-34-tranin-copy">
       <div class="div-block-35-tranin-copy">
@@ -86,5 +86,5 @@
 </template>
 
 <style scoped>
-@import url(../../../styles/devices_approve.css);
+@import url(../../../../styles/devices_approve.css);
 </style>

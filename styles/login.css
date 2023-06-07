@@ -2397,11 +2397,22 @@ textarea.w-input, textarea.w-select {
   clear: none;
   background-color: #0f7dff;
   flex: 0 auto;
-  margin-top: 129px;
-  margin-left: 170px;
   display: block;
   position: static;
-  left: 200px;
+  
+}
+
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.content {
+  width: 100%;
+  height: 50%;
 }
 
 .text-block-4 {
@@ -2466,6 +2477,22 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+
+  .div-block-2 {
+    display: none;
+  }
+
+  .text-span-3 {
+    font-size: 60px;
+  }
+
+  .div-block-2 {
+    padding: 30px 20px;
+  }
+  
+  .text-span-4 {
+    font-size: 60px;
+  }
   .container {
     max-width: 728px;
   }
@@ -2490,6 +2517,15 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+
+  .div-block {
+    margin: 0;
+  }
+
+  .div-block-2 {
+    display: none;
+  }
+
   .container {
     max-width: none;
   }

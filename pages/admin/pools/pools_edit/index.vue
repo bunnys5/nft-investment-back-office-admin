@@ -80,8 +80,12 @@
                 </div>
                 <div class="div-block-101">
                   <div class="div-block-102">
-                    <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="ตกลง" />
-                    <Button class="button-4" style="color:white; font-family: Prompt; font-weight: 500;" label="ยกเลิก" />
+                    <NuxtLink to="./pools_timeline">
+                      <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="ตกลง" />
+                    </NuxtLink>
+                    <NuxtLink to="./pools_timeline">
+                      <Button class="button-4" style="color:white; font-family: Prompt; font-weight: 500;" label="ยกเลิก" />
+                    </NuxtLink>
                   </div>
                 </div>
                 <div class="div-block-99"></div>
@@ -96,7 +100,7 @@
 </template>
 
 <style scoped>
-@import url(../../../styles/pools_edit.css);
+@import url(../../../../styles/pools_edit.css);
 
 </style>
 

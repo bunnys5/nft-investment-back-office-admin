@@ -9,6 +9,7 @@ import Column from 'primevue/column';
 import Textarea from 'primevue/textarea';
 import Timeline from 'primevue/timeline';
 import Dropdown from 'primevue/dropdown';
+import Password from 'primevue/password';
 
 const app = createApp();
 app.use(PrimeVue);
@@ -24,5 +25,6 @@ export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.component('Textarea', Textarea)
     nuxtApp.vueApp.component('Timeline', Timeline)
     nuxtApp.vueApp.component('Dropdown', Dropdown)
+    nuxtApp.vueApp.component('Password', Password);
     //other components that you need
 })

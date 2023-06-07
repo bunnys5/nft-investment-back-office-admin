@@ -5,7 +5,8 @@
   <div class="section-copy wf-section">
     <div class="div-block-30-tranin-copy">
       <div class="text-block-18-tranin-copy">
-        <span class="text-span-7-tranin-copy">Page / Dividend</span>/ Dividend Details
+        <span class="text-span-7-tranin-copy">Page / Dividend</span>/ Dividend
+        Details
       </div>
       <div class="text-block-19-tranin-copy">Dividend</div>
     </div>
@@ -25,29 +26,17 @@
                     <div class="text-block-64">POOLS ID :</div>
                     <div class="text-block-65">609213570</div>
                   </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">BANK NAME :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
                 </div>
                 <div class="div-block-103">
                   <div class="div-block-96">
                     <div class="text-block-64">NAME&nbsp;:</div>
                     <div class="text-block-65">609213570</div>
                   </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">BANK NUMBER :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
                 </div>
                 <div class="div-block-103">
                   <div class="div-block-96">
                     <div class="text-block-64">POOL&nbsp;ID :</div>
                     <div class="text-block-65">609213570</div>
-                  </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">BANK BRANCH :</div>
-                    <div class="text-block-65-copy">609213570</div>
                   </div>
                 </div>
                 <div class="div-block-103">
@@ -57,19 +46,11 @@
                       1 ถ. สาทรใต้ แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120
                     </div>
                   </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">SERVICES :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
                 </div>
                 <div class="div-block-103">
                   <div class="div-block-96">
                     <div class="text-block-64">CREATED :</div>
                     <div class="text-block-65">609213570</div>
-                  </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">PRICE :</div>
-                    <div class="text-block-65-copy">609213570</div>
                   </div>
                 </div>
                 <div class="div-block-103">
@@ -77,12 +58,34 @@
                     <div class="text-block-64">REFERENCE: :</div>
                     <div class="text-block-65">609213570</div>
                   </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">STATUS :</div>
-                    <div class="text-block-65-copy1">โอนแล้ว</div>
-                  </div>
                 </div>
-                <div class="div-block-99"></div>
+                
+              </div>
+              <div class="div-block-988">
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">BANK NAME :</div>
+                  <div class="text-block-65-copy">609213570</div>
+                </div>
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">BANK NUMBER :</div>
+                  <div class="text-block-65-copy">609213570</div>
+                </div>
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">BANK BRANCH :</div>
+                  <div class="text-block-65-copy">609213570</div>
+                </div>
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">SERVICES :</div>
+                  <div class="text-block-65-copy">609213570</div>
+                </div>
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">PRICE :</div>
+                  <div class="text-block-65-copy">609213570</div>
+                </div>
+                <div class="div-block-96-copy">
+                  <div class="text-block-64-copy">STATUS :</div>
+                  <div class="text-block-65-copy1">โอนแล้ว</div>
+                </div>
               </div>
             </div>
           </div>
@@ -93,11 +96,9 @@
 </template>
 
 <style scoped>
-@import url(../../../styles/pools_timeline.css);
-
+@import url(../../../../styles/dividend_details.css);
 </style>
 
 <script lang="ts" setup>
 import { ref } from "vue";
-
 </script>

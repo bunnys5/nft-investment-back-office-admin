@@ -20,74 +20,69 @@
           <div>
             <div class="div-block-54">
               <div class="div-block-98">
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">POOLS NO :</div>
-                    <div class="text-block-65">609213570</div>
+                <div class="block-content1">
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">POOLS NO :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">NAME&nbsp;:</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">POOL&nbsp;ID :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">ADDRESS :</div>
+                      <div class="text-block-65">
+                        1 ถ. สาทรใต้ แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120
+                      </div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">CREATED :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">STATUS :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                  <div class="div-block-103">
+                    <div class="div-block-96">
+                      <div class="text-block-64">PRICE :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-content2">
+                  <div class="div-block-96-copy">
+                    <div class="text-block-64-copy">MAX PRICE :</div>
+                    <div class="text-block-65-copy">609213570</div>
+                  </div>
+                  <div class="div-block-96-copy">
+                    <div class="text-block-64-copy">CAP PRICE :</div>
+                    <div class="text-block-65-copy">609213570</div>
                   </div>
                   <div class="div-block-96-copy">
                     <div class="text-block-64-copy">TYPE :</div>
                     <div class="text-block-65-copy">609213570</div>
                   </div>
                 </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">NAME&nbsp;:</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">MAX PRICE :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">POOL&nbsp;ID :</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">MIN PRICE :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">ADDRESS :</div>
-                    <div class="text-block-65">
-                      1 ถ. สาทรใต้ แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120
-                    </div>
-                  </div>
-                  <div class="div-block-96-copy">
-                    <div class="text-block-64-copy">CAP&nbsp;PRICE :</div>
-                    <div class="text-block-65-copy">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">CREATED :</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">STATUS :</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-103">
-                  <div class="div-block-96">
-                    <div class="text-block-64">PRICE :</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                </div>
-                <div class="div-block-101">
-                  <div class="div-block-102">
-                    <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="ตกลง" />
-                    <Button class="button-4" style="color:white; font-family: Prompt; font-weight: 500;" label="กลับ" />
-                  </div>
-                </div>
-                <div class="div-block-99"></div>
+                
               </div>
+              <div class="div-block-99"></div>
               <div class="div-block-106">
                 <div class="text-block-70">Timeline</div>
                 <div class="div-block-107">
@@ -163,7 +158,31 @@
                       </Timeline>
                     </div>
                   </div>
+                  
+                  
                 </div>
+                <div class="div-block-101">
+                <div class="div-block-102">
+                  <Button
+                    class="button-5"
+                    style="
+                      color: white;
+                      font-family: Prompt;
+                      font-weight: 500;
+                    "
+                    label="ตกลง"
+                  />
+                  <Button
+                    class="button-4"
+                    style="
+                      color: white;
+                      font-family: Prompt;
+                      font-weight: 500;
+                    "
+                    label="กลับ"
+                  />
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -175,17 +194,36 @@
 
 <style scoped>
 @import url(../../../styles/pools_timeline.css);
-
 </style>
 
 <script lang="ts" setup>
 import { ref } from "vue";
 
 const events = ref([
-    { status: 'Ordered', date: '15/10/2020 10:30', icon: 'pi pi-shopping-cart', color: '#9C27B0', image: 'game-controller.jpg' },
-    { status: 'Processing', date: '15/10/2020 14:00', icon: 'pi pi-cog', color: '#673AB7' },
-    { status: 'Shipped', date: '15/10/2020 16:15', icon: 'pi pi-shopping-cart', color: '#FF9800' },
-    { status: 'Delivered', date: '16/10/2020 10:00', icon: 'pi pi-check', color: '#607D8B' }
+  {
+    status: "Ordered",
+    date: "15/10/2020 10:30",
+    icon: "pi pi-shopping-cart",
+    color: "#9C27B0",
+    image: "game-controller.jpg",
+  },
+  {
+    status: "Processing",
+    date: "15/10/2020 14:00",
+    icon: "pi pi-cog",
+    color: "#673AB7",
+  },
+  {
+    status: "Shipped",
+    date: "15/10/2020 16:15",
+    icon: "pi pi-shopping-cart",
+    color: "#FF9800",
+  },
+  {
+    status: "Delivered",
+    date: "16/10/2020 10:00",
+    icon: "pi pi-check",
+    color: "#607D8B",
+  },
 ]);
-
 </script>

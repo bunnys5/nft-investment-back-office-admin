@@ -22,16 +22,23 @@
                 <div class="text-block-64">PARTNER NAME :</div>
                 <div class="text-block-65">ชื่อ Partner</div>
               </div>
+              <div class="div-block-96">
+                <div class="text-block-64">SECRET KEY :</div>
+                <Password class="text-block-65" v-model="value" style="border: none;" :feedback="false" toggleMask />
+                <Button class="button-5" style="margin-left:30px;" label="RESET" />
+              </div>
               <div class="div-block-97">
                 <div class="text-block-66">BUSINESS :</div>
-                <div class="text-block-67">XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                <div class="text-block-67">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
               </div>
               
             </div>
             <div class="div-block-101">
               <div class="div-block-102">
+                <NuxtLink class="button-5" to="./partner_edit">
                 <Button class="button-5" label="แก้ไข" />
-                <Button class="button-4" label="ยกเลิก" />
+                </NuxtLink>
+                <Button class="button-4" label="กลับ" />
               </div>
             </div>
           </div>
@@ -44,3 +51,10 @@
 <style scoped>
 @import url(../../../styles/partner_details.css);
 </style>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const value = ref("XXXXXXXXXXXXXXXXXXXX");
+
+</script>
