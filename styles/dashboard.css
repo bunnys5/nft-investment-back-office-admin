@@ -4081,9 +4081,10 @@ textarea.w-input, textarea.w-select {
 
 .div-block-46 {
   grid-column-gap: 0px !important;
+  padding-right: 10%;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -4695,7 +4696,7 @@ textarea.w-input, textarea.w-select {
     grid-column-gap: 0px !important;
     grid-row-gap: 16px;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
     display: grid;

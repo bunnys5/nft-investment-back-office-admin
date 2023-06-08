@@ -5,7 +5,7 @@
   <div class="section-copy wf-section">
     <div class="div-block-30-tranin-copy">
       <div class="text-block-18-tranin-copy">
-        <span class="text-span-7-tranin-copy">Page / Pools</span>/ Pools Details
+        <span class="text-span-7-tranin-copy">Page / Pools </span>/ Pools Details
       </div>
       <div class="text-block-19-tranin-copy">Pools</div>
     </div>
@@ -82,6 +82,9 @@
                 </div>
                 <div class="div-block-101">
                   <div class="div-block-102">
+                    <NuxtLink class="button-5" to="./pools_timeline/devices">
+                      <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="ดู Devices" />
+                    </NuxtLink>
                     <NuxtLink class="button-5" to="./pools_edit">
                       <Button class="button-5" style="color:white; font-family: Prompt; font-weight: 500;" label="แก้ไข" />
                     </NuxtLink>

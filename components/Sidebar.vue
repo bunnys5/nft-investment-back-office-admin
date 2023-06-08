@@ -35,14 +35,7 @@
             class="image-10"
           />
         </div>
-        <div class="div-block-17">
-          <img
-            src="../assets/sidebar-navbar-dashboard/645a10ad7a6d805d10369ad1_Vector.svg"
-            loading="lazy"
-            alt=""
-            class="image-11"
-          /><a href="#" class="link-2">Transaction</a>
-        </div>
+
         <div class="div-block-18">
           <div class="div-block-25">
             <img
