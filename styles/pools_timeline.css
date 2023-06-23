@@ -5042,7 +5042,6 @@ textarea.w-input, textarea.w-select {
   grid-row-gap: 30px;
   justify-content: flex-end;
   align-items: stretch;
-  padding-bottom: 30px;
   padding-right: 30px;
   display: flex;
 }

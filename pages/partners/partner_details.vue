@@ -12,30 +12,37 @@
       <div class="div-block-35-tranin-copy">
         <div class="div-block-37-copy">
           <div class="div-block-38-tranin-copy">
-            <div class="text-block-22">Parters</div>
+            <div class="text-block-22">ผู้เข้าร่วม</div>
           </div>
         </div>
         <div class="div-block-53">
           <div class="div-block-54">
             <div class="div-block-98">
               <div class="div-block-96">
+                <div class="text-block-64">PARTNER ID :</div>
+                <div class="text-block-65">XXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+              </div>
+              <div class="div-block-96">
                 <div class="text-block-64">PARTNER NAME :</div>
-                <InputText class="text-block-65" type="text" v-model="value" />
+                <div class="text-block-65">ชื่อ Partner</div>
+              </div>
+              <div class="div-block-96">
+                <div class="text-block-64">SECRET KEY :</div>
+                <Password class="text-block-65" v-model="value" style="border: none;" :feedback="false" toggleMask disabled />
+                <Button class="button-5" style="margin-left:30px;" label="RESET" />
               </div>
               <div class="div-block-97">
                 <div class="text-block-66">BUSINESS :</div>
-                <Textarea class="text-block-67" v-model="value" autoResize rows="5" cols="30" />
+                <div class="text-block-67">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
               </div>
               
             </div>
             <div class="div-block-101">
               <div class="div-block-102">
-                <NuxtLink class="button-5" to="./partner_details">
-                <Button class="button-5" label="ตกลง" />
+                <NuxtLink class="button-5" to="./partner_edit">
+                <Button class="button-5" label="แก้ไข" />
                 </NuxtLink>
-                <NuxtLink class="button-4" to="./partner/.partner_details">
-                <Button class="button-4" label="ยกเลิก" />
-                </NuxtLink>
+                <Button class="button-4" label="กลับ" />
               </div>
             </div>
           </div>
@@ -46,22 +53,12 @@
 </template>
 
 <style scoped>
-@import url(../../../styles/partner_edit.css);
+@import url(../../../styles/partner_details.css);
 </style>
 
-<script lang="ts">
-import { defineComponent,ref } from 'vue';
-import Textarea from 'primevue/textarea';
+<script setup lang="ts">
+import { ref } from 'vue';
 
-export default defineComponent({
-  setup() {
-    const value = ref('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
-
-    return {
-      value
-    }
-  }
-
-})
+const value = ref("1212121");
 
 </script>

@@ -72,12 +72,6 @@
                 </div>
               </div>
             </div>
-            <div class="div-block-101">
-              <div class="div-block-102">
-                <a href="#" class="button-5 w-button">Button Text</a
-                ><a href="#" class="button-4 w-button">Button Text</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

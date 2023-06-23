@@ -22,14 +22,7 @@
           </div>
           <div class="div-block-49">
             <div class="div-block-50">
-              <div class="div-block-55">
-                <img
-                  src="../../../assets/transaction_details/6460ab303cd46f90282cd955_429D72BD-A90E-4657-AE57-7631AF01A3D5 2.png"
-                  loading="lazy"
-                  alt=""
-                  class="image-40"
-                />
-              </div>
+              
               <div class="div-block-58">
                 <div class="div-block-61">
                   <div class="text-block-31">Device ID: 0000111</div>
@@ -46,8 +39,8 @@
                   <div class="div-block-63">
                     <div class="div-block-64">
                       <div class="div-block-66">
-                        <img style="width:22px; height: 22px;"
-                          src="../../../assets/transaction_details/6460b5086a5c7615fcfbf4c1_currency-usd.png"
+                        <img
+                          src="../../../../../assets/transaction_details/6460b5086a5c7615fcfbf4c1_currency-usd.png"
                           loading="lazy"
                           alt=""
                         />
@@ -62,16 +55,16 @@
                   </div>
                   <div class="div-block-63">
                     <div class="div-block-64">
-                      <div class="div-block-66" style="background-color: #1A73E7;">
-                        <img style="width:22px; height: 22px;"
-                          src="../../../assets/transaction_details/6460b509d6192761284ee288_account.png"
+                      <div class="div-block-66">
+                        <img
+                          src="../../../../../assets/transaction_details/6460b509d6192761284ee288_account.png"
                           loading="lazy"
                           alt=""
                         />
                       </div>
                     </div>
                     <div class="div-block-67">
-                      <div class="text-block-35">จำนวนการใช้งาน</div>
+                      <div class="text-block-35">รายได้/เครื่อง</div>
                     </div>
                     <div class="div-block-65">
                       <div class="text-block-34">+$2,000</div>
@@ -79,16 +72,16 @@
                   </div>
                   <div class="div-block-63">
                     <div class="div-block-64">
-                      <div class="div-block-66" style="background-color: #16C0E8;">
-                        <img style="width:22px;"
-                          src="../../../assets/transaction_details/text-box.svg"
+                      <div class="div-block-66">
+                        <img
+                          src="../../../../../assets/transaction_details/6460b508ac4c2f8714d47259_text-box.png"
                           loading="lazy"
                           alt=""
                         />
                       </div>
                     </div>
                     <div class="div-block-67">
-                      <div class="text-block-35">ค่าใช้จ่าย / เครื่อง</div>
+                      <div class="text-block-35">รายได้/เครื่อง</div>
                     </div>
                     <div class="div-block-65">
                       <div class="text-block-34">+$2,000</div>
@@ -118,6 +111,40 @@
               </div>
             </div>
           </div>
+          <div class="div-block-49">
+            <div class="map">
+              <div class="text-block-22">แผนที่</div>
+              <div class="div-block-50-2"></div>
+            </div>
+            <div class="pic-upload">
+              <div class="text-block-22">รูปภาพ</div>
+              <div class="div-block-52-2">
+                <Galleria
+                  :value="images"
+                  :responsiveOptions="responsiveOptions"
+                  :numVisible="5"
+                  containerStyle="width: 100%"
+                  preview
+                >
+                  <template #item="slotProps">
+                    <img
+                      :src="slotProps.item.itemImageSrc"
+                      :alt="slotProps.item.alt"
+                      style="width: 100%"
+                      preview
+                    />
+                  </template>
+                  <template #thumbnail="slotProps">
+                    <img
+                      :src="slotProps.item.thumbnailImageSrc"
+                      :alt="slotProps.item.alt"
+                      preview
+                    />
+                  </template>
+                </Galleria>
+              </div>
+            </div>
+          </div>
           <div class="div-block-53">
             <div><div class="text-block-27">Transaction</div></div>
             <div class="div-block-54">
@@ -132,14 +159,14 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     data-w-id="88ddad91-0736-8614-ed5e-0e4be55c6a82"
                     alt=""
                     class="image-41"
                   />
                 </div>
-                <div class="div-block-75" style="">
+                <div class="div-block-75" style="display: none">
                   <div class="div-block-76">
                     <div>รหัสผู้ใช้ :</div>
                     <div>XXXXXXXXXX</div>
@@ -170,10 +197,9 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
-                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -189,10 +215,9 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
-                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -208,10 +233,9 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
-                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -227,10 +251,9 @@
                 <div class="div-block-72">
                   <div class="text-block-46">08 มีนาคม 2022 14:20</div>
                   <img
-                    src="../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
+                    src="../../../../../assets/transaction_details/64626a51b3fe78c183f2b022_Vector.svg"
                     loading="lazy"
                     alt=""
-                    class="image-41"
                   />
                 </div>
                 <div class="div-block-80"></div>
@@ -243,11 +266,32 @@
   </template>
 
   <style scoped>
-  @import url(../../../styles/transaction_details.css);
-
-
-
+  @import url(../../../../../styles/transaction_details.css);
   </style>
     
+    <script setup>
+    import { ref, onMounted } from "vue";
+    import { PhotoService } from "@/service/PhotoService";
+    
+    onMounted(() => {
+      PhotoService.getImages().then((data) => (images.value = data));
+    });
+    
+    const images = ref();
+    const responsiveOptions = ref([
+      {
+        breakpoint: "991px",
+        numVisible: 4,
+      },
+      {
+        breakpoint: "767px",
+        numVisible: 3,
+      },
+      {
+        breakpoint: "575px",
+        numVisible: 1,
+      },
+    ]);
+    </script>
 
 

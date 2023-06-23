@@ -16,7 +16,72 @@
             <div class="div-block-38">
               <div class="text-block-22">คืนเงินปันผลให้ผู้ลงทุน</div>
             </div>
+            <div class="button-menu">
+                <Button
+                  style="color: white; font-family: 'Prompt'"
+                  label="อัพเดท Status"
+                />
+                <Button
+                  style="color: white; font-family: 'Prompt'"
+                  label="เพิ่มอุปกรณ์"
+                  @click="visible = true"
+                />
+              </div>
           </div>
+          <Dialog
+              v-model:visible="visible"
+              modal
+              header="STATUS"
+              :style="{ width: '50vw' }"
+              style="font-family: 'Prompt';"
+            >
+            
+              <div class="div-block-53">
+                <div class="div-block-54">
+                  <div class="div-block-98">
+                    <div class="div-block-96">
+                      <div class="text-block-64">DEVICE ID :</div>
+                      <div class="text-block-65">609213570</div>
+                    </div>
+                    <div class="div-block-97">
+                      <div class="text-block-66">CREATE&nbsp;AT :</div>
+                      <div class="text-block-67">
+                        26 March 2020, at 13:45 PM
+                      </div>
+                    </div>
+                    <div class="div-block-97">
+                      <div class="text-block-66">POOL ID :</div>
+                      <div class="div-block-100">
+                      <Dropdown
+                        v-model="selectedCity"
+                        :options="cities"
+                        optionLabel="name"
+                        placeholder="Select a City"
+                        class="w-full md:w-14rem"
+                      />
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <template #footer>
+                <Button
+                  style="color: white; font-family: 'Prompt'"
+                  label="ยกเลิก"
+                  icon="pi pi-times"
+                  @click="visible = false"
+                  text
+                />
+                <Button
+                  style="color: white; font-family: 'Prompt'"
+                  label="ตกลง"
+                  icon="pi pi-check"
+                  @click="visible = false"
+                  autofocus
+                />
+              </template>
+            </Dialog>
           <div class="div-block-39">
             <div class="card">
           <TreeTable :paginator="true" :rows="5" :rowsPerPageOptions="[5, 10, 25, 50]"
@@ -52,8 +117,11 @@
 @import url(../../../styles/dividend.css);
 </style>
 
-<script lang="ts">
+<script setup lang="ts">
 import { ref } from 'vue';
+import Button from "primevue/button";
+
+const visible = ref(false);
 
 const nodes = ref();
 

@@ -10,6 +10,11 @@ import Textarea from 'primevue/textarea';
 import Timeline from 'primevue/timeline';
 import Dropdown from 'primevue/dropdown';
 import Password from 'primevue/password';
+import Dialog from 'primevue/dialog';
+import TabView from 'primevue/tabview';
+import TabPanel from 'primevue/tabpanel';
+import Avatar from 'primevue/avatar';
+import Galleria from 'primevue/galleria';
 
 const app = createApp();
 app.use(PrimeVue);
@@ -26,5 +31,10 @@ export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.component('Timeline', Timeline)
     nuxtApp.vueApp.component('Dropdown', Dropdown)
     nuxtApp.vueApp.component('Password', Password);
+    nuxtApp.vueApp.component('Dialog', Dialog);
+    nuxtApp.vueApp.component('TabView', TabView);
+    nuxtApp.vueApp.component('TabPanel', TabPanel);
+    nuxtApp.vueApp.component('Avatar', Avatar);
+    nuxtApp.vueApp.component('Galleria', Galleria);
     //other components that you need
 })

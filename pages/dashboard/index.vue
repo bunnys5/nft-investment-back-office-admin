@@ -1,8 +1,7 @@
 <template>
+  <Navbar />
+  <Sidebar />
   <div>
-    <Navbar />
-    <Sidebar />
-
     <body class="body">
       <div class="section wf-section">
         <div class="div-block-30-tranin">
@@ -21,12 +20,10 @@
                 class="image-22"
               />
             </div>
-
             <div class="div-block-33">
-              <div class="text-block-20">รายได้รวม Devices</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
-          
           </div>
           <div class="div-block-31">
             <div class="div-block-32">
@@ -36,7 +33,6 @@
                 width="60"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
@@ -52,11 +48,10 @@
                 width="60"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">รายได้รวม/เดือน</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -66,11 +61,11 @@
                 src="../../../assets/dashboard/645aa3b295de8a4676beae0f_walletmoney.svg"
                 loading="lazy"
                 alt=""
-                class="image-22"
+                class="image-38"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">รายงานสรุปค่าใช้จ่าย</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -81,11 +76,10 @@
                 loading="lazy"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">ค่าใช้จ่าย/รายเดือน</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -97,11 +91,10 @@
                 width="60"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">จำนวน NFT</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -112,11 +105,10 @@
                 loading="lazy"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">จำนวน Pools</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -128,11 +120,68 @@
                 width="60"
                 height="60"
                 alt=""
-                class="image-22"
               />
             </div>
             <div class="div-block-33">
-              <div class="text-block-20">จำนวน Devices</div>
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+              <div class="text-block-21">1,000,000 บาท</div>
+            </div>
+          </div>
+          <div class="div-block-31">
+            <div class="div-block-32">
+              <img
+                src="../../../assets/dashboard/645aa6a6a485ecfa87495deb_devices.svg"
+                loading="lazy"
+                width="60"
+                height="60"
+                alt=""
+              />
+            </div>
+            <div class="div-block-33">
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+              <div class="text-block-21">1,000,000 บาท</div>
+            </div>
+          </div>
+          <div class="div-block-31">
+            <div class="div-block-32">
+              <img
+                src="../../../assets/dashboard/645aa47f63b3c455356a404d_notepad2.svg"
+                loading="lazy"
+                height="60"
+                alt=""
+              />
+            </div>
+            <div class="div-block-33">
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+              <div class="text-block-21">1,000,000 บาท</div>
+            </div>
+          </div>
+          <div class="div-block-31">
+            <div class="div-block-32">
+              <img
+                src="../../../assets/dashboard/645aa61bf299ad2f8212d12f_profile2user.svg"
+                loading="lazy"
+                height="60"
+                alt=""
+              />
+            </div>
+            <div class="div-block-33">
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
+              <div class="text-block-21">1,000,000 บาท</div>
+            </div>
+          </div>
+          <div class="div-block-31">
+            <div class="div-block-32">
+              <img
+                src="../../../assets/dashboard/645aa6a60558c99171b982b0_money3.svg"
+                loading="lazy"
+                width="60"
+                alt=""
+                class="image-39"
+              />
+            </div>
+            <div class="div-block-33">
+              <div class="text-block-20">มูลค่า Pools ทั้งหมด</div>
               <div class="text-block-21">1,000,000 บาท</div>
             </div>
           </div>
@@ -149,7 +198,6 @@
             </div>
             <div class="div-block-39-copy-copy"></div>
           </div>
-          
           <div class="div-block-41-copy-copy">
             <div class="div-block-42-copy-copy">
               <div class="div-block555-copy">
@@ -178,7 +226,7 @@
             </div>
             <div class="div-block-39-copy-copy"></div>
           </div>
-          
+
           <div class="div-block-41-copy-copy">
             <div class="div-block-42-copy-copy">
               <div class="div-block555-copy">
@@ -193,6 +241,19 @@
               </div>
             </div>
             <div class="div-block-43-copy-copy"></div>
+          </div>
+        </div>
+        <div class="div-block-34-copy-copy">
+          <div class="div-block-35-cop">
+            <div class="div-block-37-copy-copy">
+              <div class="div-block-38-copy-copy">
+                <div class="text-block-22-copy-copy">จำนวนผู้ใช้ในระบบ</div>
+              </div>
+              <div class="div-block-36-copy-copy">
+                <div class="text-block-24-copy-copy">กันยายน 2020</div>
+              </div>
+            </div>
+            <div class="div-block-39-copy-copy"></div>
           </div>
         </div>
       </div>

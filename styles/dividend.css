@@ -272,6 +272,13 @@ html.w-mod-touch * {
   display: none;
 }
 
+.button-menu {
+  display: flex;
+  column-gap: 20px;
+}
+
+
+
 .w-button {
   color: #fff;
   line-height: inherit;

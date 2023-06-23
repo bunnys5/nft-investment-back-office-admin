@@ -46,7 +46,7 @@
 </template>
 
 <style scoped>
-@import url(../../styles/users.css);
+@import url(../../../styles/users.css);
 </style>
 
 

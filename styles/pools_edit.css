@@ -3171,6 +3171,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section {
+  z-index: -99 !important;
   width: 90%;
   height: 100%;
   background-color: #f1f1f1;
@@ -4191,6 +4192,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section-copy {
+  z-index: -99;
   width: 90%;
   height: auto;
   background-color: #f1f1f1;
@@ -5025,6 +5027,8 @@ textarea.w-input, textarea.w-select {
   grid-row-gap: 300px;
   display: flex;
 }
+
+
 
 .div-block-96-copy {
   width: 350px;

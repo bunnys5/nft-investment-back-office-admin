@@ -49,7 +49,9 @@
                     </div>
                     <div class="div-block-97">
                       <div class="text-block-66">POOL ID :</div>
-                      <div class="div-block-100">
+                      <div class="text-block-67">XXXXXXXXXX</div>
+                    </div>
+                    <div class="div-block-100">
                       <Dropdown
                         v-model="selectedCity"
                         :options="cities"
@@ -58,8 +60,6 @@
                         class="w-full md:w-14rem"
                       />
                     </div>
-                    </div>
-                    
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@
               </template>
             </Dialog>
             <TabView>
-              <TabPanel header="รอลงทะเบียน">
+              <TabPanel header="เพิ่มอุปกรณ์">
                 <div class="div-block-39">
                   <div class="card">
                     <TreeTable
@@ -113,7 +113,7 @@
                   </div>
                 </div>
               </TabPanel>
-              <TabPanel header="รอดำเนินการ">
+              <TabPanel header="อัพเดทอุปกรณ์">
                 <div class="div-block-39">
                   <div class="card">
                     <TreeTable
@@ -154,7 +154,7 @@
 </template>
 
 <style scoped>
-@import url(../../../styles/devices.css);
+@import url(../../styles/devices.css);
 </style>
 
 <script setup lang="ts">

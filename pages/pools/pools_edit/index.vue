@@ -67,6 +67,10 @@
                   </div>
                 </div>
                 <div class="div-block-103">
+                  <div class="div-block-96">
+                    <div class="text-block-64">STATUS :</div>
+                    <div class="text-block-65"></div>
+                  </div>
                 </div>
                 <div class="div-block-103">
                   <div class="div-block-96">

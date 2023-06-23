@@ -1,7 +1,7 @@
 <template>
-  <div class="div-block-6">
+  <div class="div-block-6" id="div-block-6">
     <div class="div-block-8">
-      <div class="close-icon">
+      <div class="close-icon" id="close-icon">
         <img
           class="img-close"
           src="../assets/sidebar/close.svg"
@@ -27,7 +27,7 @@
             loading="lazy"
             alt=""
             class="image-8"
-          /><a href="#" class="link">Dashboard</a
+          /><a href="../pages/dashboard" class="link">Dashboard</a
           ><img
             src="../assets/sidebar-navbar-dashboard/645a0c25aebb03a1063120a0_Rectangle 111.svg"
             loading="lazy"
@@ -46,7 +46,7 @@
             />
           </div>
           <div class="div-block-26">
-            <a href="#" class="link-3">Users</a>
+            <a href="../pages/users" class="link-3">Users</a>
           </div>
         </div>
         <div class="div-block-18-copy">
@@ -59,7 +59,7 @@
             />
           </div>
           <div class="div-block-26-copy">
-            <a href="#" class="link-3-copy">Order</a>
+            <a href="../pages/orders" class="link-3-copy">Order</a>
           </div>
         </div>
         <div class="div-block-18-copy-copy">
@@ -72,7 +72,7 @@
             />
           </div>
           <div class="div-block-26-copy-copy">
-            <a href="#" class="link-3-copy-copy">Dividend</a>
+            <a href="~/pages/admin/dividend" class="link-3-copy-copy">Dividend</a>
           </div>
         </div>
         <div class="div-block-18-copy-copy-copy">
@@ -85,7 +85,7 @@
             />
           </div>
           <div class="div-block-26-copy-copy-copy">
-            <a href="#" class="link-3-copy-copy-copy-copy">Devices</a>
+            <a href="../pages/devices" class="link-3-copy-copy-copy-copy">Devices</a>
           </div>
         </div>
         <div class="div-block-18-copy-copy-copy">
@@ -98,7 +98,7 @@
             />
           </div>
           <div class="div-block-26-copy-copy-copy">
-            <a href="#" class="link-3-copy-copy-copy">Pools</a>
+            <a href="../pages/pools" class="link-3-copy-copy-copy">Pools</a>
           </div>
         </div>
         <div class="div-block-18-copy-copy-copy-copy">
@@ -111,7 +111,7 @@
             />
           </div>
           <div class="div-block-26-copy-copy-copy">
-            <a href="#" class="link-3-copy-copy-copy-copy">Partners</a>
+            <a href="../pages/partners" class="link-3-copy-copy-copy-copy">Partners</a>
           </div>
         </div>
         <div class="div-block-18-copy-copy-copy-copy">
@@ -132,7 +132,26 @@
   </div>
 </template>
 
-<script lang="ts"></script>
+<script>
+export default {
+  async mounted() {
+    await this.pressMenu();
+  },
+  methods: {
+    async pressMenu() {
+      let sidebar = document.getElementById("div-block-6");
+      let menuBtn = document.getElementById("close-icon");
+      menuBtn.onclick = function () {
+        sidebar.classList.add("sidebar-close");
+        console.log(sidebar);
+      };
+    },
+  },
+};
+
+
+
+</script>
 
 <style scoped>
 @import url("../styles/sidebar.css");
@@ -145,9 +164,4 @@
   left: 0;
 }
 
-@media screen and (max-width: 991px) {
-  .div-block-6 {
-    display: none !important;
-  }
-}
 </style>

@@ -12,7 +12,7 @@
       <div class="div-block-35-tranin-copy">
         <div class="div-block-37-copy">
           <div class="div-block-38-tranin-copy">
-            <div class="text-block-22">Parters</div>
+            <div class="text-block-22">ผู้เข้าร่วม</div>
           </div>
         </div>
         <div class="div-block-53">
