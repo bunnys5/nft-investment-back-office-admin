@@ -81,25 +81,29 @@
           </div>
         </div>
         <div class="div-block-53">
-          <div class="div-block-54-2">
-            <div class="text-bank">
-              <div class="text-block-22">บัญชีที่ 1</div>
-            </div>
-            <div class="div-block-88">
-              <div class="div-block-82">
-                <div class="text-block-55">BANK NAME :</div>
-                <div class="text-block-49">XXXXXXXXXXXXX</div>
+          
+            <div class="card">
+                <TreeTable
+                  :paginator="true"
+                  :rows="5"
+                  :rowsPerPageOptions="[5, 10, 25, 50]"
+                  paginatorTemplate="RowsPerPageDropdown FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink"
+                  currentPageReportTemplate="{first} to {last} of {totalRecords}"
+                >
+                  <template #paginatorstart>
+                    <Button type="button" icon="pi pi-refresh" text />
+                  </template>
+                  
+                  <Column field="size" header="NO."></Column>
+                  <Column field="size" header="BANK NAME"></Column>
+                  <Column field="size" header="BANK NUMBER"></Column>
+                  <Column field="size" header="BANK BRANCH"></Column>
+                  <template #paginatorend>
+                    <Button type="button" icon="pi pi-download" text />
+                  </template>
+                </TreeTable>
               </div>
-              <div class="div-block-82">
-                <div class="text-block-55">BANK NUMBER :</div>
-                <div class="text-block-48">XXXXXXXXXXXXX</div>
-              </div>
-              <div class="div-block-82">
-                <div class="text-block-55">BANK BRANCH :</div>
-                <div class="text-block-50">XXXXXXXXXXXXX</div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>

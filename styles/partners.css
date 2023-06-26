@@ -3171,6 +3171,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section {
+  z-index: -99;
   width: 90%;
   height: 100%;
   background-color: #f1f1f1;
@@ -3178,7 +3179,7 @@ textarea.w-input, textarea.w-select {
   display: block;
   position: absolute;
   top: 90px;
-  left: 215px;
+  left: 200px;
 }
 
 .div-block-30 {

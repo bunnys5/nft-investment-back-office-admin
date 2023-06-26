@@ -28,7 +28,8 @@
               </div>
               <div class="div-block-96">
                 <div class="text-block-64">SECRET KEY :</div>
-                <Password class="text-block-65" v-model="value" style="border: none;" :feedback="false" toggleMask disabled />
+                <Password class="text-block-65" id="copy-text" v-model="text" style="border: none;" :feedback="false" toggleMask disabled />
+                <Button class="button-5" style="margin-left:30px;" label="COPY" @click="copy" />
                 <Button class="button-5" style="margin-left:30px;" label="RESET" />
               </div>
               <div class="div-block-97">
@@ -56,9 +57,27 @@
 @import url(../../../styles/partner_details.css);
 </style>
 
-<script setup lang="ts">
+<script lang="ts">
 import { ref } from 'vue';
 
-const value = ref("1212121");
+export default {
+  layout: 'ws',
+  data() {
+    return {
+      text: '1234567890'
+    }
+  },
+  methods: {
+    copy() {
+      try {
+        navigator.clipboard.writeText(this.text);
+        
+      } catch(e) {
+        throw e;
+      }
+    }
+  }
+}
+
 
 </script>

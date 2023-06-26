@@ -4,7 +4,7 @@
   <div class="section-copy wf-section">
     <div class="div-block-30-tranin-copy">
       <div class="text-block-18-tranin-copy">
-        <span class="text-span-7-tranin-copy">Page / Partners</span>/ Partners Edit
+        <span class="text-span-7-tranin-copy">Page / Partners</span>/ Partners Add
       </div>
       <div class="text-block-19-tranin-copy">Partners</div>
     </div>
@@ -31,7 +31,7 @@
             <div class="div-block-101">
               <div class="div-block-102">
                 <NuxtLink class="button-5" to="./partner_details">
-                <Button class="button-5" label="ตกลง" />
+                <Button @click="confirm1" class="button-5" label="ตกลง" />
                 </NuxtLink>
                 <NuxtLink class="button-4" to="./partner/.partner_details">
                 <Button class="button-4" label="ยกเลิก" />
@@ -52,14 +52,39 @@
 <script lang="ts">
 import { defineComponent,ref } from 'vue';
 import Textarea from 'primevue/textarea';
+import { useConfirm } from "primevue/useconfirm";
+import { useToast } from "primevue/usetoast";
+
+const confirm = useConfirm();
+const toast = useToast();
 
 export default defineComponent({
+  
   setup() {
     const value = ref('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 
     return {
       value
     }
+  },
+
+  methods: {
+    confirm1() {
+      confirm.require({
+        message: 'Are you sure you want to proceed',
+        header: 'Confirmation',
+        icon: 'pi pi=exclamation-triangle',
+        accept: () => {
+          toast.add({ severity: 'info', summary: 'Confirmed', detail: 'You have  accepts', life: 3000});
+        },
+        reject: () => {
+          toast.add({ severity: 'error', summary: 'Rejected', detail: 'You have rejected', life: 3000});
+        
+        }
+
+      })
+    }
+    
   }
 
 })

@@ -15,6 +15,7 @@ import TabView from 'primevue/tabview';
 import TabPanel from 'primevue/tabpanel';
 import Avatar from 'primevue/avatar';
 import Galleria from 'primevue/galleria';
+import ConfirmDialog from 'primevue/confirmdialog';
 
 const app = createApp();
 app.use(PrimeVue);
@@ -36,5 +37,6 @@ export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.vueApp.component('TabPanel', TabPanel);
     nuxtApp.vueApp.component('Avatar', Avatar);
     nuxtApp.vueApp.component('Galleria', Galleria);
+    nuxtApp.vueApp.component('ConfirmDialog', ConfirmDialog);
     //other components that you need
 })
