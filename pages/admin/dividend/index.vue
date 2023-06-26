@@ -19,6 +19,10 @@
               <div class="button-menu">
                 <Button
                   style="color: white; font-family: 'Prompt'"
+                  label="อัพเดท Status"
+                />
+                <Button
+                  style="color: white; font-family: 'Prompt'"
                   label="เพิ่มอุปกรณ์"
                   @click="visible = true"
                 />
@@ -28,58 +32,22 @@
               v-model:visible="visible"
               modal
               header="STATUS"
-              
+              :style="{ width: '50vw' }"
               style="font-family: 'Prompt'"
             >
-              <div class="div-dialog-1">
-                <div class="div-dialog-2">
-                  <div class="div-block-96">
-                    <div class="text-block-64">POOL NAME :</div>
-                    <div class="text-block-65">609213570</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">ADDRESS :</div>
-                    <div class="text-block-65">1 ถ. สาทรใต้ แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">POOL ID :</div>
-                    <div class="text-block-65">123124123123</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">CREATE AT :</div>
-                    <div class="text-block-65">10/03/2566</div>
-                  </div>
+            <div class="div-dialog-1">
+              <div class="div-dialog-2">
+                <div class="div-text-block-1">
+                  <div>POOL NAME:</div>
+                  <div>POOL</div>
                 </div>
-                <div class="div-line"></div>
-                <div class="div-dialog-2">
-                  <div class="div-block-96">
-                    <div class="text-block-64">USER ID :</div>
-                    <div class="text-block-65">11022125</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">USER NAME :</div>
-                    <div class="text-block-65">Test1234</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">CITIZEN ID :</div>
-                    <div class="text-block-65">XXXX XXXXX</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">BANK NAME :</div>
-                    <div class="text-block-65">XXXXXXXX</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">AMOUNT :</div>
-                    <div class="text-block-65">30,000 บาท</div>
-                  </div>
-                  <div class="div-block-96">
-                    <div class="text-block-64">DATE :</div>
-                    <div class="text-block-65">30/03/2566</div>
-                  </div>
+                <div class="div-text-block-1">
+                  <div>ADDRESS:</div>
+                  <div>1 ถ. สาทรใต้ แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120</div>
                 </div>
               </div>
-              <div class="div-status">*รายการนี้ยืนยันการโอนแล้ว</div>
-
+            </div>
+              
               <template #footer>
                 <Button
                   style="color: white; font-family: 'Prompt'"

@@ -3319,55 +3319,39 @@ textarea.w-select {
 
 .div-block-96 {
   display: flex;
-  font-family: "Prompt";
+  flex-direction: row;
 }
 
-.text-block-64 {
-  width: 120px;
-  color: #0f7dff;
-  font-family: "Prompt";
-  font-weight: 500;
-}
-.text-block-65 {
-  font-family: "Prompt";
-  font-weight: 500;
+.div-block-97 {
+  display: flex;
+  flex-direction: row;
 }
 
-.div-line {
+.line-pop {
+  width: 420px;
+  height: 0px;
+  transform: rotate(90deg);
   transform-origin: 0 0;
   border: 0.5px black solid;
 }
 
-.text-block-65 {
-  width: 160px;
+.div-block-98 {
+  width: 50%;
+  
 }
 
-.div-status {
-  color: #FB8E03;
-}
-
-.div-dialog-1 {
-  width: 100%;
-  column-gap: 20px;
-  height: auto !important;
+.div-text-block-1 {
   display: flex;
-  justify-content: space-between;
 }
 
-.div-dialog-2 {
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
-}
-
-.div-status {
-  padding-top: 10px;
+.text-status {
+  font-family: "Prompt";
   text-align: center;
 }
 
-
-.text-block-65 {
-  font-family: "Prompt";
+.div-block-54 {
+  width: 100%;
+  display: flex;
 }
 
 .div-block-30 {
